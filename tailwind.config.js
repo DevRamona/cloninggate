@@ -42,6 +42,9 @@ module.exports = {
         fourth: {
           100: "#f2f2f2", 
           200: "#333"
+        }, 
+        header: {
+          100: "rgb(213, 213, 213)"
         }
       }, 
 
