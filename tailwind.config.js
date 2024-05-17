@@ -41,6 +41,7 @@ module.exports = {
         }, 
         fourth: {
           100: "#f2f2f2", 
+          200: "#333"
         }
       }, 
 
