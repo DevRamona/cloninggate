@@ -2,6 +2,8 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    
+    
     container: {
       center: false,
       padding: {
@@ -25,7 +27,19 @@ module.exports = {
         "4xl": "20rem",
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary:'#d5d5d5', 
+        secondary: {
+          100: "#212529", 
+          200: "something"
+        }, 
+      }, 
+
+    },
+    fontFamily : {
+      body: ["Lato"]
+    },
   },
   plugins: [],
 }
