@@ -5,7 +5,7 @@ module.exports = {
     
     
     container: {
-      center: true,
+      center: false,
       padding: {
         DEFAULT: "1rem",
         sm: "2rem",
@@ -38,6 +38,9 @@ module.exports = {
         third: {
           100: "#a18a4d",
           200: "#212529"
+        }, 
+        fourth: {
+          100: "#f2f2f2", 
         }
       }, 
 
